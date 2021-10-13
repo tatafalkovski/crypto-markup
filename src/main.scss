@@ -1,0 +1,59 @@
+@import "normalize.scss";
+@import "header.scss";
+@import "menu.scss";
+@import "footer.scss";
+@import "main-body";
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 598px;
+  position: relative;
+  // overflow: hidden;
+}
+
+.container-menu {
+  margin-top: 15px;
+}
+
+.container-lg {
+  width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #515151;
+  white-space: nowrap;
+}
+
+h1 {
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: normal;
+  margin: 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+h6 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    font-size: 18px;
+  }
+}

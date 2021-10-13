@@ -1,0 +1,135 @@
+.stretched-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.cover-link {
+    position: relative;
+}
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        margin-right: 10px;
+    }
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.block {
+    width: 48%;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.title-sm {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.block-table {
+    background: #272637;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 12px;
+}
+.table-navigation {
+    display: flex;
+}
+
+.navigation-link {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+.active a {
+    color: #05D8E8;
+}
+
+.table-field {
+    background: #131225;
+    border-radius: 12px;
+    width: 100%;
+    padding: 0 0 8px 0;
+    margin: 25px 0;
+}
+
+.table-block {
+    background: #000020;
+    border-radius: 12px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.table-row {
+    margin-top: 20px;
+}
+.table-padding {
+    padding: 12px;
+}
+.table-data {
+    &_left div {
+        text-align: left;
+    }
+    &_right div {
+        text-align: right;
+    }
+}
+
+.block-item {
+    // margin-bottom: 20px;
+    img {
+        margin-right: 8px;
+    }
+}
+.ticker {
+    width: 100%;
+    background-color: #004d66;
+    height: 4px;
+    border-radius: 12px;
+    position: relative;
+    margin: 0 15px;
+  }
+.ticker-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 65%;
+    background-color: #05D8E8;
+    border-radius: 12px;
+}
+.ticker-docket::before {
+    content: '34%';
+    color: #05D8E8;
+    position: absolute;
+    right: -15px;
+    bottom: 15px;
+    font-weight: bold;
+}
+.ticker-full {
+    margin:  0;
+    margin-bottom: 6px;
+}
+.data-indent {
+    margin: 30px 0 40px;
+}
