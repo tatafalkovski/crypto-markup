@@ -1,0 +1,36 @@
+.caption-sm {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+.btn-blue {
+    background: #05D8E8;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px 30px;
+    color: #010014;
+    cursor: pointer;
+}
+
+.caption-info {
+    display: flex;
+    align-items: center;
+
+    .icon-popup {
+        width: 287px;
+        height: 346px;
+    }
+
+    .title-sm {
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
