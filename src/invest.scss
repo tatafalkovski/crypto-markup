@@ -4,10 +4,12 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 17px;
-    color: rgba(255, 255, 255, 0.5);
     text-align: left;
 }
-
+.deposit-btn {
+    cursor: pointer;
+    position: relative;
+}
 .btn-blue {
     background: #05D8E8;
     border-radius: 12px;
@@ -16,9 +18,56 @@
     line-height: 23px;
     padding: 10px 30px;
     color: #010014;
-    cursor: pointer;
+    text-align: center;
+    &-sm {
+        padding: 4px 8px;
+        font-size: 12px;
+        line-height: 17px;
+        border-radius: 4px;
+    }
 }
-
+.btn-close {
+    background-image: url(../images/icons/close.png);
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 0;
+}
+.pop-up-deposite {
+    width: 290px;
+    height: 395px;
+    background: #000020;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    position: absolute;
+    z-index: 2;
+    top: 240px;
+    right: -45px;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+.deposit-title {
+    text-align: center;
+    font-size: 16px;
+    line-height: 23px;
+}
+.pacoca-btn {
+    padding: 9px 16px;
+    max-width: 140px;
+}
+.pacoca-balance {
+    border: 1px solid #272637;
+    border-radius: 12px;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+}
+.zero {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+}
 .caption-info {
     display: flex;
     align-items: center;
@@ -33,4 +82,8 @@
         text-align: center;
         color: #FFFFFF;
     }
+}
+
+.visible {
+    display: block;
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Yoga_vacation",
+  "name": "CryptoMarkup",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/tatafalkovski/Lian_project#readme",
   "dependencies": {
+    "build": "^0.1.4",
+    "run": "^1.4.0",
     "sass": "^1.26.3",
     "webpack": "^4.42.1"
   },
